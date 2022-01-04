@@ -9,7 +9,7 @@ public interface IUserService
 {
     User saveUser(User user);
 
-    Optional<User> findBUsername(String username);
+    Optional<User> findByUsername(String username);
 
     List<User> findAllUsers();
 }
